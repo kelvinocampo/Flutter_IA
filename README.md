@@ -1,24 +1,84 @@
-# Gestor de API Keys para Gemini - Aplicación Flutter
+## 🚀 Gemini Key Manager Chat
 
-## Características
-- Gestión de hasta 10 API Keys de Gemini (crear, editar, eliminar, activar)
-- Integración con el modelo Gemini 2.5 Flash
-- Alternar entre tema claro/oscuro
-- Soporte para múltiples idiomas (inglés/español)
-- Almacenamiento local seguro para las API Keys
+### **Tu Gestor de Claves de IA y Cliente de Chat Integrados en una Sola Aplicación Flutter**
 
-## Cómo obtener API Keys
-1. Visita Google AI Studio: https://aistudio.google.com/
-2. Inicia sesión con tu cuenta de Google
-3. Haz clic en "Get API Key" en la esquina superior derecha
-4. Copia tu clave generada (formato: AIzaSy...)
+![Captura de pantalla conceptual de la interfaz de la aplicación de chat mostrando la gestión de claves de Gemini y la interfaz de conversación.]
 
-## Detalles Técnicos
-- Modelo utilizado: gemini-2.5-flash
-- Gestión de estado: Provider
-- Internacionalización: flutter_localizations
-- Almacenamiento: shared_preferences y sqflite
+---
 
-## Configuración para Desarrollo
-1. Clona el repositorio
-2. Ejecuta `flutter pub get`
+### ⭐ Características Destacadas
+
+Esta aplicación te permite centralizar el control de tus credenciales de Gemini con una experiencia de chat completa:
+
+* **🔑 Gestión Segura de Claves:** Almacena, activa, edita y elimina hasta **10 API Keys de Gemini** de forma segura en tu dispositivo.
+* **🗣️ Chat Impulsado por Gemini:** Utiliza la clave activa seleccionada para interactuar directamente con el modelo **Gemini 2.5 Flash** dentro de la aplicación.
+* **🌐 Personalización Total:**
+    * **Temas:** Alterna fácilmente entre el tema claro y oscuro.
+    * **Idioma:** Soporte completo para **Inglés y Español**.
+    * **Clave Activa:** Cambia la clave utilizada para las consultas en tiempo real desde la configuración.
+* **🛡️ Almacenamiento Privado:** Todas tus claves se guardan localmente mediante almacenamiento seguro, garantizando tu privacidad.
+
+---
+
+### 📲 Cómo Empezar
+
+#### 1. Obtener tu API Key de Gemini
+
+Para usar la aplicación, primero necesitas una clave de acceso:
+
+1.  Visita **Google AI Studio**: [https://aistudio.google.com/](https://aistudio.google.com/)
+2.  Inicia sesión con tu cuenta de Google.
+3.  Haz clic en **"Create API Key"** en la esquina superior derecha.
+4.  Copia tu clave generada (el formato comienza con `AIzaSy...`).
+
+#### 2. Usar la Aplicación
+
+1.  **Instala la APK** (Disponible en la sección [Releases](#-releases)).
+2.  Abre la aplicación y ve a la sección de **Configuración (Settings)**.
+3.  Agrega tu clave usando el botón **"Crear nueva Key"**.
+4.  Una vez agregada, asegúrate de que esté **activada**.
+5.  Vuelve a la pantalla principal y comienza a chatear con Gemini.
+
+---
+
+### 💻 Instalación para Desarrollo (Flutter)
+
+Si deseas contribuir o probar el código fuente:
+
+1.  **Clona el Repositorio:**
+    ```bash
+    git clone [https://github.com/kelvinocampo/TestFlutter](https://github.com/kelvinocampo/TestFlutter)
+    cd TestFlutter
+    ```
+2.  **Instala las Dependencias:**
+    ```bash
+    flutter pub get
+    ```
+3.  **Ejecuta la Aplicación:**
+    ```bash
+    flutter run
+    ```
+
+#### **Detalles Técnicos:**
+
+| Componente | Tecnología/Modelo |
+| :--- | :--- |
+| **Modelo Base** | `gemini-2.5-flash` |
+| **Gestión de Estado** | Provider |
+| **Internacionalización** | `flutter_localizations` |
+| **Almacenamiento (Keys)** | `sqflite` (Para claves seguras) |
+| **Almacenamiento (Preferencias)** | `shared_preferences` |
+
+---
+
+### ⬇️ Releases
+
+Encuentra la última versión estable (APK) y el historial de cambios aquí:
+
+➡️ **[Últimas Versiones (Releases)](https://github.com/kelvinocampo/TestFlutter/releases)**
+
+---
+
+### 📄 Licencia
+
+Este proyecto está licenciado bajo la [Licencia]. Ver el archivo [LICENSE] para más detalles.
