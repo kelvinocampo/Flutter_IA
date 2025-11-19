@@ -2,7 +2,7 @@
 
 ### **Tu Gestor de Claves de IA y Cliente de Chat Integrados en una Sola Aplicación Flutter**
 
-![Captura de pantalla conceptual de la interfaz de la aplicación de chat mostrando la gestión de claves de Gemini y la interfaz de conversación.]
+<img src="./assets/README__preview.jpg" alt="Preview Chat IA" width="250"/>
 
 ---
 
