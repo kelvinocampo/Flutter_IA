@@ -47,7 +47,7 @@ Si deseas contribuir o probar el código fuente:
 
 1.  **Clona el Repositorio:**
     ```bash
-    git clone [https://github.com/kelvinocampo/Flutter_IA](https://github.com/kelvinocampo/Flutter_IA)
+    git clone https://github.com/kelvinocampo/Flutter_IA
     cd TestFlutter
     ```
 2.  **Instala las Dependencias:**
