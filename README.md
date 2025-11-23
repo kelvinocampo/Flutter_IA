@@ -33,7 +33,7 @@ Para usar la aplicación, primero necesitas una clave de acceso:
 
 #### 2. Usar la Aplicación
 
-1.  **Instala la APK** (Disponible en la sección [Releases](#-releases)).
+1.  **Instala la APK** (Disponible en la sección [Releases](https://github.com/kelvinocampo/Flutter_IA/releases)).
 2.  Abre la aplicación y ve a la sección de **Configuración (Settings)**.
 3.  Agrega tu clave usando el botón **"Crear nueva Key"**.
 4.  Una vez agregada, asegúrate de que esté **activada**.
